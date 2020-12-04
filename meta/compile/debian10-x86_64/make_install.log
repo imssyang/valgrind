@@ -1,0 +1,794 @@
+❯ make install 2>../make_install.log 1>&2 
+./auxprogs/make_or_upd_vgversion_h .
+make  install-recursive
+make[1]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1'
+Making install in include
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/include'
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/include'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/opt/valgrind/include/valgrind'
+ /usr/bin/install -c -m 644  pub_tool_basics.h pub_tool_basics_asm.h pub_tool_addrinfo.h pub_tool_aspacehl.h pub_tool_aspacemgr.h pub_tool_clientstate.h pub_tool_clreq.h pub_tool_deduppoolalloc.h pub_tool_debuginfo.h pub_tool_errormgr.h pub_tool_execontext.h pub_tool_gdbserver.h pub_tool_guest.h pub_tool_poolalloc.h pub_tool_hashtable.h pub_tool_libcbase.h pub_tool_libcassert.h pub_tool_libcfile.h pub_tool_libcprint.h pub_tool_libcproc.h pub_tool_libcsetjmp.h pub_tool_libcsignal.h pub_tool_machine.h pub_tool_mallocfree.h pub_tool_options.h pub_tool_oset.h pub_tool_rangemap.h pub_tool_redir.h pub_tool_replacemalloc.h pub_tool_seqmatch.h pub_tool_signals.h pub_tool_sparsewa.h pub_tool_stacktrace.h pub_tool_threadstate.h pub_tool_tooliface.h pub_tool_transtab.h pub_tool_vki.h pub_tool_vkiscnums.h pub_tool_vkiscnums_asm.h pub_tool_wordfm.h '/opt/valgrind/include/valgrind/.'
+ /usr/bin/mkdir -p '/opt/valgrind/include/valgrind/vki'
+ /usr/bin/install -c -m 644  vki/vki-linux.h vki/vki-darwin.h vki/vki-solaris.h vki/vki-solaris-repcache.h vki/vki-posixtypes-amd64-linux.h vki/vki-posixtypes-arm64-linux.h vki/vki-posixtypes-ppc32-linux.h vki/vki-posixtypes-ppc64-linux.h vki/vki-posixtypes-x86-linux.h vki/vki-posixtypes-arm-linux.h vki/vki-posixtypes-s390x-linux.h vki/vki-posixtypes-mips32-linux.h vki/vki-posixtypes-mips64-linux.h vki/vki-posixtypes-nanomips-linux.h vki/vki-amd64-linux.h vki/vki-arm64-linux.h vki/vki-ppc32-linux.h vki/vki-ppc64-linux.h vki/vki-x86-linux.h vki/vki-arm-linux.h vki/vki-s390x-linux.h vki/vki-mips32-linux.h vki/vki-mips64-linux.h vki/vki-nanomips-linux.h vki/vki-scnums-amd64-linux.h vki/vki-scnums-arm64-linux.h vki/vki-scnums-ppc32-linux.h vki/vki-scnums-ppc64-linux.h vki/vki-scnums-x86-linux.h vki/vki-scnums-arm-linux.h vki/vki-scnums-s390x-linux.h vki/vki-scnums-mips32-linux.h vki/vki-scnums-mips64-linux.h vki/vki-scnums-nanomips-linux.h vki/vki-scnums-darwin.h vki/vki-scnums-solaris.h vki/vki-scnums-shared-linux.h vki/vki-scnums-32bit-linux.h vki/vki-xen.h vki/vki-xen-domctl.h '/opt/valgrind/include/valgrind/vki'
+ /usr/bin/mkdir -p '/opt/valgrind/include/valgrind/vki'
+ /usr/bin/install -c -m 644  vki/vki-xen-evtchn.h vki/vki-xen-gnttab.h vki/vki-xen-hvm.h vki/vki-xen-memory.h vki/vki-xen-mmuext.h vki/vki-xen-physdev.h vki/vki-xen-schedop.h vki/vki-xen-sysctl.h vki/vki-xen-tmem.h vki/vki-xen-version.h vki/vki-xen-xsm.h vki/vki-xen-x86.h vki/vki-linux-drm.h vki/vki-linux-io_uring.h '/opt/valgrind/include/valgrind/vki'
+ /usr/bin/install -c -m 644  pub_tool_xarray.h pub_tool_xtree.h pub_tool_xtmemory.h valgrind.h '/opt/valgrind/include/valgrind/.'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/include'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/include'
+Making install in VEX
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/VEX'
+make  install-am
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/VEX'
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/VEX'
+ /usr/bin/mkdir -p '/opt/valgrind/lib/valgrind'
+ /usr/bin/install -c -m 644  libvex-amd64-linux.a libvexmultiarch-amd64-linux.a '/opt/valgrind/lib/valgrind'
+ ( cd '/opt/valgrind/lib/valgrind' && ranlib libvex-amd64-linux.a )
+ ( cd '/opt/valgrind/lib/valgrind' && ranlib libvexmultiarch-amd64-linux.a )
+ /usr/bin/mkdir -p '/opt/valgrind/include/valgrind'
+ /usr/bin/install -c -m 644 pub/libvex.h pub/libvex_basictypes.h pub/libvex_emnote.h pub/libvex_guest_offsets.h pub/libvex_guest_x86.h pub/libvex_guest_amd64.h pub/libvex_guest_ppc32.h pub/libvex_guest_ppc64.h pub/libvex_guest_arm.h pub/libvex_guest_arm64.h pub/libvex_guest_s390x.h pub/libvex_guest_mips32.h pub/libvex_guest_mips64.h pub/libvex_s390x_common.h pub/libvex_ir.h pub/libvex_trc_values.h pub/libvex_inner.h '/opt/valgrind/include/valgrind'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/VEX'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/VEX'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/VEX'
+Making install in coregrind
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/coregrind'
+make  install-am
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/coregrind'
+mkdir -p ../.in_place; \
+for f in vgpreload_core-amd64-linux.so  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../coregrind/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../coregrind/$f.dSYM ../.in_place; \
+done
+mkdir -p ../.in_place; \
+for f in m_gdbserver/32bit-core-valgrind-s1.xml m_gdbserver/32bit-core-valgrind-s2.xml m_gdbserver/32bit-core.xml m_gdbserver/32bit-linux-valgrind-s1.xml m_gdbserver/32bit-linux-valgrind-s2.xml m_gdbserver/32bit-linux.xml m_gdbserver/32bit-sse-valgrind-s1.xml m_gdbserver/32bit-sse-valgrind-s2.xml m_gdbserver/32bit-sse.xml m_gdbserver/64bit-avx-valgrind-s2.xml m_gdbserver/64bit-avx-valgrind-s1.xml m_gdbserver/64bit-avx.xml m_gdbserver/64bit-core-valgrind-s1.xml m_gdbserver/64bit-core-valgrind-s2.xml m_gdbserver/64bit-core.xml m_gdbserver/64bit-linux-valgrind-s1.xml m_gdbserver/64bit-linux-valgrind-s2.xml m_gdbserver/64bit-linux.xml m_gdbserver/64bit-sse-valgrind-s1.xml m_gdbserver/64bit-sse-valgrind-s2.xml m_gdbserver/64bit-sse.xml m_gdbserver/amd64-avx-coresse-valgrind.xml m_gdbserver/amd64-avx-coresse.xml m_gdbserver/amd64-avx-linux-valgrind.xml m_gdbserver/amd64-avx-linux.xml m_gdbserver/amd64-coresse-valgrind.xml m_gdbserver/amd64-linux-valgrind.xml m_gdbserver/arm-core-valgrind-s1.xml m_gdbserver/arm-core-valgrind-s2.xml m_gdbserver/arm-core.xml m_gdbserver/arm-vfpv3-valgrind-s1.xml m_gdbserver/arm-vfpv3-valgrind-s2.xml m_gdbserver/arm-vfpv3.xml m_gdbserver/arm-with-vfpv3-valgrind.xml m_gdbserver/arm-with-vfpv3.xml m_gdbserver/i386-coresse-valgrind.xml m_gdbserver/i386-linux-valgrind.xml m_gdbserver/power64-core-valgrind-s1.xml m_gdbserver/power64-core-valgrind-s2.xml m_gdbserver/power64-core.xml m_gdbserver/power64-core2-valgrind-s1.xml m_gdbserver/power64-core2-valgrind-s2.xml m_gdbserver/power64-linux-valgrind-s1.xml m_gdbserver/power64-linux-valgrind-s2.xml m_gdbserver/power64-linux.xml m_gdbserver/power-altivec-valgrind-s1.xml m_gdbserver/power-altivec-valgrind-s2.xml m_gdbserver/power-altivec.xml m_gdbserver/power-vsx-valgrind-s1.xml m_gdbserver/power-vsx-valgrind-s2.xml m_gdbserver/power-vsx.xml m_gdbserver/power-core-valgrind-s1.xml m_gdbserver/power-core-valgrind-s2.xml m_gdbserver/power-core.xml m_gdbserver/power-fpu-valgrind-s1.xml m_gdbserver/power-fpu-valgrind-s2.xml m_gdbserver/power-fpu.xml m_gdbserver/power-linux-valgrind-s1.xml m_gdbserver/power-linux-valgrind-s2.xml m_gdbserver/power-linux.xml m_gdbserver/powerpc-altivec32l-valgrind.xml m_gdbserver/powerpc-altivec32l.xml m_gdbserver/powerpc-altivec64l-valgrind.xml m_gdbserver/powerpc-altivec64l.xml m_gdbserver/s390-acr-valgrind-s1.xml m_gdbserver/s390-acr-valgrind-s2.xml m_gdbserver/s390-acr.xml m_gdbserver/s390-fpr-valgrind-s1.xml m_gdbserver/s390-fpr-valgrind-s2.xml m_gdbserver/s390-fpr.xml m_gdbserver/s390x-core64-valgrind-s1.xml m_gdbserver/s390x-core64-valgrind-s2.xml m_gdbserver/s390x-core64.xml m_gdbserver/s390x-generic-valgrind.xml m_gdbserver/s390x-generic.xml m_gdbserver/s390x-linux64-valgrind-s1.xml m_gdbserver/s390x-linux64-valgrind-s2.xml m_gdbserver/s390x-linux64.xml m_gdbserver/s390-vx-valgrind-s1.xml m_gdbserver/s390-vx-valgrind-s2.xml m_gdbserver/s390-vx.xml m_gdbserver/s390x-vx-linux-valgrind.xml m_gdbserver/s390x-vx-linux.xml m_gdbserver/mips-cp0-valgrind-s1.xml m_gdbserver/mips-cp0-valgrind-s2.xml m_gdbserver/mips-cp0.xml m_gdbserver/mips-cpu-valgrind-s1.xml m_gdbserver/mips-cpu-valgrind-s2.xml m_gdbserver/mips-cpu.xml m_gdbserver/mips-linux.xml m_gdbserver/mips-linux-valgrind.xml m_gdbserver/mips-fpu-valgrind-s1.xml m_gdbserver/mips-fpu-valgrind-s2.xml m_gdbserver/mips-fpu.xml m_gdbserver/mips64-cp0-valgrind-s1.xml m_gdbserver/mips64-cp0-valgrind-s2.xml m_gdbserver/mips64-cp0.xml m_gdbserver/mips64-cpu-valgrind-s1.xml m_gdbserver/mips64-cpu-valgrind-s2.xml m_gdbserver/mips64-cpu.xml m_gdbserver/mips64-linux.xml m_gdbserver/mips64-linux-valgrind.xml m_gdbserver/mips64-fpu-valgrind-s1.xml m_gdbserver/mips64-fpu-valgrind-s2.xml m_gdbserver/mips64-fpu.xml; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../coregrind/$f ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/coregrind'
+ /usr/bin/mkdir -p '/opt/valgrind/bin'
+  /usr/bin/install -c valgrind vgdb '/opt/valgrind/bin'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in vgpreload_core-amd64-linux.so ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+ /usr/bin/mkdir -p '/opt/valgrind/lib/valgrind'
+ /usr/bin/install -c -m 644  libcoregrind-amd64-linux.a libgcc-sup-amd64-linux.a libreplacemalloc_toolpreload-amd64-linux.a '/opt/valgrind/lib/valgrind'
+ ( cd '/opt/valgrind/lib/valgrind' && ranlib libcoregrind-amd64-linux.a )
+ ( cd '/opt/valgrind/lib/valgrind' && ranlib libgcc-sup-amd64-linux.a )
+ ( cd '/opt/valgrind/lib/valgrind' && ranlib libreplacemalloc_toolpreload-amd64-linux.a )
+ /usr/bin/mkdir -p '/opt/valgrind/lib/valgrind'
+ /usr/bin/install -c -m 644 m_gdbserver/32bit-core-valgrind-s1.xml m_gdbserver/32bit-core-valgrind-s2.xml m_gdbserver/32bit-core.xml m_gdbserver/32bit-linux-valgrind-s1.xml m_gdbserver/32bit-linux-valgrind-s2.xml m_gdbserver/32bit-linux.xml m_gdbserver/32bit-sse-valgrind-s1.xml m_gdbserver/32bit-sse-valgrind-s2.xml m_gdbserver/32bit-sse.xml m_gdbserver/64bit-avx-valgrind-s2.xml m_gdbserver/64bit-avx-valgrind-s1.xml m_gdbserver/64bit-avx.xml m_gdbserver/64bit-core-valgrind-s1.xml m_gdbserver/64bit-core-valgrind-s2.xml m_gdbserver/64bit-core.xml m_gdbserver/64bit-linux-valgrind-s1.xml m_gdbserver/64bit-linux-valgrind-s2.xml m_gdbserver/64bit-linux.xml m_gdbserver/64bit-sse-valgrind-s1.xml m_gdbserver/64bit-sse-valgrind-s2.xml m_gdbserver/64bit-sse.xml m_gdbserver/amd64-avx-coresse-valgrind.xml m_gdbserver/amd64-avx-coresse.xml m_gdbserver/amd64-avx-linux-valgrind.xml m_gdbserver/amd64-avx-linux.xml m_gdbserver/amd64-coresse-valgrind.xml m_gdbserver/amd64-linux-valgrind.xml m_gdbserver/arm-core-valgrind-s1.xml m_gdbserver/arm-core-valgrind-s2.xml m_gdbserver/arm-core.xml m_gdbserver/arm-vfpv3-valgrind-s1.xml m_gdbserver/arm-vfpv3-valgrind-s2.xml m_gdbserver/arm-vfpv3.xml m_gdbserver/arm-with-vfpv3-valgrind.xml m_gdbserver/arm-with-vfpv3.xml m_gdbserver/i386-coresse-valgrind.xml m_gdbserver/i386-linux-valgrind.xml m_gdbserver/power64-core-valgrind-s1.xml m_gdbserver/power64-core-valgrind-s2.xml m_gdbserver/power64-core.xml '/opt/valgrind/lib/valgrind'
+ /usr/bin/install -c -m 644 m_gdbserver/power64-core2-valgrind-s1.xml m_gdbserver/power64-core2-valgrind-s2.xml m_gdbserver/power64-linux-valgrind-s1.xml m_gdbserver/power64-linux-valgrind-s2.xml m_gdbserver/power64-linux.xml m_gdbserver/power-altivec-valgrind-s1.xml m_gdbserver/power-altivec-valgrind-s2.xml m_gdbserver/power-altivec.xml m_gdbserver/power-vsx-valgrind-s1.xml m_gdbserver/power-vsx-valgrind-s2.xml m_gdbserver/power-vsx.xml m_gdbserver/power-core-valgrind-s1.xml m_gdbserver/power-core-valgrind-s2.xml m_gdbserver/power-core.xml m_gdbserver/power-fpu-valgrind-s1.xml m_gdbserver/power-fpu-valgrind-s2.xml m_gdbserver/power-fpu.xml m_gdbserver/power-linux-valgrind-s1.xml m_gdbserver/power-linux-valgrind-s2.xml m_gdbserver/power-linux.xml m_gdbserver/powerpc-altivec32l-valgrind.xml m_gdbserver/powerpc-altivec32l.xml m_gdbserver/powerpc-altivec64l-valgrind.xml m_gdbserver/powerpc-altivec64l.xml m_gdbserver/s390-acr-valgrind-s1.xml m_gdbserver/s390-acr-valgrind-s2.xml m_gdbserver/s390-acr.xml m_gdbserver/s390-fpr-valgrind-s1.xml m_gdbserver/s390-fpr-valgrind-s2.xml m_gdbserver/s390-fpr.xml m_gdbserver/s390x-core64-valgrind-s1.xml m_gdbserver/s390x-core64-valgrind-s2.xml m_gdbserver/s390x-core64.xml m_gdbserver/s390x-generic-valgrind.xml m_gdbserver/s390x-generic.xml m_gdbserver/s390x-linux64-valgrind-s1.xml m_gdbserver/s390x-linux64-valgrind-s2.xml m_gdbserver/s390x-linux64.xml m_gdbserver/s390-vx-valgrind-s1.xml m_gdbserver/s390-vx-valgrind-s2.xml '/opt/valgrind/lib/valgrind'
+ /usr/bin/install -c -m 644 m_gdbserver/s390-vx.xml m_gdbserver/s390x-vx-linux-valgrind.xml m_gdbserver/s390x-vx-linux.xml m_gdbserver/mips-cp0-valgrind-s1.xml m_gdbserver/mips-cp0-valgrind-s2.xml m_gdbserver/mips-cp0.xml m_gdbserver/mips-cpu-valgrind-s1.xml m_gdbserver/mips-cpu-valgrind-s2.xml m_gdbserver/mips-cpu.xml m_gdbserver/mips-linux.xml m_gdbserver/mips-linux-valgrind.xml m_gdbserver/mips-fpu-valgrind-s1.xml m_gdbserver/mips-fpu-valgrind-s2.xml m_gdbserver/mips-fpu.xml m_gdbserver/mips64-cp0-valgrind-s1.xml m_gdbserver/mips64-cp0-valgrind-s2.xml m_gdbserver/mips64-cp0.xml m_gdbserver/mips64-cpu-valgrind-s1.xml m_gdbserver/mips64-cpu-valgrind-s2.xml m_gdbserver/mips64-cpu.xml m_gdbserver/mips64-linux.xml m_gdbserver/mips64-linux-valgrind.xml m_gdbserver/mips64-fpu-valgrind-s1.xml m_gdbserver/mips64-fpu-valgrind-s2.xml m_gdbserver/mips64-fpu.xml '/opt/valgrind/lib/valgrind'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/coregrind'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/coregrind'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/coregrind'
+Making install in .
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1'
+./auxprogs/make_or_upd_vgversion_h .
+mkdir -p ./.in_place
+rm -f ./.in_place/default.supp
+ln -s ../default.supp ./.in_place
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/opt/valgrind/lib/pkgconfig'
+ /usr/bin/install -c -m 644 valgrind.pc '/opt/valgrind/lib/pkgconfig'
+ /usr/bin/mkdir -p '/opt/valgrind/include/valgrind'
+ /usr/bin/install -c -m 644 config.h '/opt/valgrind/include/valgrind'
+ /usr/bin/mkdir -p '/opt/valgrind/lib/valgrind'
+ /usr/bin/install -c -m 644 default.supp '/opt/valgrind/lib/valgrind'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1'
+Making install in memcheck
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck'
+mkdir -p ../.in_place; \
+for f in memcheck-amd64-linux  vgpreload_memcheck-amd64-linux.so  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../memcheck/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../memcheck/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in memcheck-amd64-linux  vgpreload_memcheck-amd64-linux.so ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+ /usr/bin/mkdir -p '/opt/valgrind/include/valgrind'
+ /usr/bin/install -c -m 644 memcheck.h '/opt/valgrind/include/valgrind'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests'
+Making install in .
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests'
+Making install in amd64
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/amd64'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/amd64'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/amd64'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/amd64'
+Making install in linux
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/linux'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/linux'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/linux'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/linux'
+Making install in amd64-linux
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/amd64-linux'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/amd64-linux'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/amd64-linux'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/amd64-linux'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck'
+Making install in cachegrind
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind'
+mkdir -p ../.in_place; \
+for f in cachegrind-amd64-linux  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../cachegrind/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../cachegrind/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind'
+ /usr/bin/mkdir -p '/opt/valgrind/bin'
+  /usr/bin/install -c cg_merge '/opt/valgrind/bin'
+ /usr/bin/mkdir -p '/opt/valgrind/bin'
+ /usr/bin/install -c cg_annotate cg_diff '/opt/valgrind/bin'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in cachegrind-amd64-linux ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind/tests'
+Making install in .
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind/tests'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind/tests'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind/tests'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/cachegrind'
+Making install in callgrind
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind'
+mkdir -p ../.in_place; \
+for f in callgrind-amd64-linux  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../callgrind/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../callgrind/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind'
+ /usr/bin/mkdir -p '/opt/valgrind/bin'
+ /usr/bin/install -c callgrind_annotate callgrind_control '/opt/valgrind/bin'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in callgrind-amd64-linux ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+ /usr/bin/mkdir -p '/opt/valgrind/include/valgrind'
+ /usr/bin/install -c -m 644 callgrind.h '/opt/valgrind/include/valgrind'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind/tests'
+Making install in .
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind/tests'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind/tests'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind/tests'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/callgrind'
+Making install in helgrind
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind'
+mkdir -p ../.in_place; \
+for f in helgrind-amd64-linux  vgpreload_helgrind-amd64-linux.so  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../helgrind/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../helgrind/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in helgrind-amd64-linux  vgpreload_helgrind-amd64-linux.so ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+ /usr/bin/mkdir -p '/opt/valgrind/include/valgrind'
+ /usr/bin/install -c -m 644 helgrind.h '/opt/valgrind/include/valgrind'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind/tests'
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind/tests'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/helgrind'
+Making install in drd
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd'
+mkdir -p ../.in_place; \
+for f in drd-amd64-linux  vgpreload_drd-amd64-linux.so  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../drd/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../drd/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in drd-amd64-linux  vgpreload_drd-amd64-linux.so ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+ /usr/bin/mkdir -p '/opt/valgrind/include/valgrind'
+ /usr/bin/install -c -m 644 drd.h '/opt/valgrind/include/valgrind'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd/tests'
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd/tests'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/drd'
+Making install in massif
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif'
+mkdir -p ../.in_place; \
+for f in massif-amd64-linux  vgpreload_massif-amd64-linux.so  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../massif/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../massif/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif'
+ /usr/bin/mkdir -p '/opt/valgrind/bin'
+ /usr/bin/install -c ms_print '/opt/valgrind/bin'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in massif-amd64-linux  vgpreload_massif-amd64-linux.so ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif/tests'
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif/tests'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/massif'
+Making install in dhat
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat'
+mkdir -p ../.in_place; \
+for f in dhat-amd64-linux  vgpreload_dhat-amd64-linux.so  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../dhat/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../dhat/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in dhat-amd64-linux  vgpreload_dhat-amd64-linux.so ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+ /usr/bin/mkdir -p '/opt/valgrind/libexec/valgrind'
+ /usr/bin/install -c -m 644 dh_view.html dh_view.css dh_view.js '/opt/valgrind/libexec/valgrind'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat/tests'
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat/tests'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/dhat'
+Making install in lackey
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey'
+mkdir -p ../.in_place; \
+for f in lackey-amd64-linux  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../lackey/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../lackey/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in lackey-amd64-linux ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey/tests'
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey/tests'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/lackey'
+Making install in none
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none'
+mkdir -p ../.in_place; \
+for f in none-amd64-linux  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../none/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../none/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in none-amd64-linux ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests'
+Making install in .
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests'
+Making install in scripts
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/scripts'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/scripts'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/scripts'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/scripts'
+Making install in amd64
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/amd64'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/amd64'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/amd64'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/amd64'
+Making install in linux
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/linux'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/linux'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/linux'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/linux'
+Making install in amd64-linux
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/amd64-linux'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/amd64-linux'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/amd64-linux'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests/amd64-linux'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/none'
+Making install in exp-bbv
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv'
+mkdir -p ../.in_place; \
+for f in exp-bbv-amd64-linux  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../exp-bbv/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../exp-bbv/$f.dSYM ../.in_place; \
+done
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in exp-bbv-amd64-linux ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv'
+Making install in tests
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests'
+Making install in .
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests'
+Making install in amd64-linux
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests/amd64-linux'
+make[5]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests/amd64-linux'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests/amd64-linux'
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests/amd64-linux'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/exp-bbv'
+Making install in shared
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/shared'
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/shared'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/shared'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/shared'
+Making install in tests
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/tests'
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/tests'
+Making install in perf
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/perf'
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/perf'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/perf'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/perf'
+Making install in gdbserver_tests
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/gdbserver_tests'
+Making install in .
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/gdbserver_tests'
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/gdbserver_tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/gdbserver_tests'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/gdbserver_tests'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/gdbserver_tests'
+Making install in memcheck/tests/vbit-test
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/vbit-test'
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/vbit-test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/vbit-test'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/memcheck/tests/vbit-test'
+Making install in auxprogs
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/auxprogs'
+mkdir -p ../.in_place; \
+for f in getoff-amd64-linux  ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../auxprogs/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../auxprogs/$f.dSYM ../.in_place; \
+done
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/auxprogs'
+ /usr/bin/mkdir -p '/opt/valgrind/bin'
+  /usr/bin/install -c valgrind-listener valgrind-di-server '/opt/valgrind/bin'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in getoff-amd64-linux ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/auxprogs'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/auxprogs'
+Making install in mpi
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/mpi'
+mkdir -p ../.in_place; \
+for f in   ; do \
+  rm -f ../.in_place/$f; \
+  ln -f -s ../mpi/$f ../.in_place; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+mkdir -p ../.in_place; \
+for f in ; do \
+  rm -f ../.in_place/$f.dSYM; \
+  ln -f -s ../mpi/$f.dSYM ../.in_place; \
+done
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/mpi'
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in  ; do \
+  /usr/bin/install -c $f /opt/valgrind/lib/valgrind; \
+done
+for f in ; do \
+  if [ ! -e $f.dSYM  -o  $f -nt $f.dSYM ] ; then \
+      echo "dsymutil $f"; \
+      dsymutil $f; \
+  fi; \
+done
+/bin/bash /opt/valgrind/archive/source/valgrind-3.16.1/install-sh -d /opt/valgrind/lib/valgrind; \
+for f in ; do \
+  cp -R $f.dSYM /opt/valgrind/lib/valgrind; \
+done
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/mpi'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/mpi'
+Making install in solaris
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/solaris'
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/solaris'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/solaris'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/solaris'
+Making install in docs
+make[2]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/docs'
+make[3]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[4]: Entering directory '/opt/valgrind/archive/source/valgrind-3.16.1/docs'
+set -e; \
+if test -r html ; then \
+	mkdir -p /opt/valgrind/share/doc/valgrind; \
+	cp -r html /opt/valgrind/share/doc/valgrind; \
+fi
+for f in *.1 ; do \
+	if test -r $f ; then \
+		mkdir -p /opt/valgrind/share/man/man1; \
+		cp $f /opt/valgrind/share/man/man1; \
+	fi \
+done
+set -e; \
+if test -r index.pdf ; then \
+	mkdir -p /opt/valgrind/share/doc/valgrind; \
+	cp index.pdf /opt/valgrind/share/doc/valgrind/valgrind_manual.pdf; \
+fi
+set -e; \
+if test -r index.ps ; then \
+	mkdir -p /opt/valgrind/share/doc/valgrind; \
+	cp index.ps /opt/valgrind/share/doc/valgrind/valgrind_manual.ps; \
+fi
+make[4]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/docs'
+make[3]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/docs'
+make[2]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1/docs'
+make[1]: Leaving directory '/opt/valgrind/archive/source/valgrind-3.16.1'
